@@ -12,10 +12,8 @@ A secure backend application built with **Java**, **Spring Boot**, **Spring Secu
 | ORM | Spring Data JPA / Hibernate |
 | Database | MySQL |
 | Password Hashing | BCrypt |
-| Testing | JUnit 5 + Mockito |
 | Build Tool | Maven |
 
----
 
 ## 🏗️ Project Structure
 
@@ -165,13 +163,13 @@ POST /api/employees
 Authorization: Bearer <token>
 
 {
-  "firstName": "Rahul",
-  "lastName": "Sharma",
-  "email": "rahul@company.com",
+  "firstName": "Bipul",
+  "lastName": "Roy",
+  "email": "bipul@company.com",
   "department": "Engineering",
   "designation": "Backend Developer",
   "salary": 75000,
-  "phoneNumber": "9876543210",
+  "phoneNumber": "987654320",
   "joiningDate": "2024-01-15"
 }
 ```
